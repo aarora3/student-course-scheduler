@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="run" name="compile and run Java class">
+	<target name="run" depends="compile">
+		<java classname="Driver">
+			<classpath path="staging" />
+		</java>
+		<echo> Running </echo>
+	</target>
+	<target name="compile">
+		<javac includeantruntime="false" srcdir="./src" destdir="staging" />
+		<echo> Compiling </echo>
+	</target>
+</project>

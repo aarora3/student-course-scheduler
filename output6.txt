@@ -1,0 +1,13 @@
+Student_1 A D C 8 
+Student_2 A B C 6 
+Student_3 A B D 6 
+Student_4 A C B 6 
+Student_5 B C A 6 
+Student_6 B A C 6 
+Student_7 C A B 6 
+Student_8 D B C 6 
+Student_9 A D B 6 
+Student_10 B A D 6 
+Student_11 B C D 6 
+Student_12 C D A 6 
+Average preference_score is: 6.166666666666667
